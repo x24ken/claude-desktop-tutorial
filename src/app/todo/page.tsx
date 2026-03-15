@@ -13,9 +13,6 @@ export default function TodoPage() {
     }
   };
 
-  // intentional lint error: unused variable
-  const unusedVariable = "this should trigger eslint";
-
   return (
     <div className="min-h-screen p-8">
       <h1 className="text-2xl font-bold mb-4">TODO App</h1>
