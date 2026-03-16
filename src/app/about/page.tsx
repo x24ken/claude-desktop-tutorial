@@ -1,11 +1,5 @@
-"use client";
-
-import { useState } from "react";
-
 export default function AboutPage() {
   const title = "About Us";
-  const unusedCount = 42;
-  const unusedMessage = "this will fail lint";
 
   return (
     <div className="min-h-screen p-8">
